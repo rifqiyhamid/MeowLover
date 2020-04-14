@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSecondaryGrey"
+    tools:context=".HomeActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorSecondaryGrey"
+        tools:context=".HomeActivity">
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginHorizontal="49dp"
+        android:elevation="1dp"
+        >
+
+        <LinearLayout
+            android:background="@color/colorSecondaryWhite"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_alignParentLeft="true"
+                        android:layout_width="99dp"
+                        android:layout_height="99dp"
+                        android:src="@drawable/artikel"/>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_marginTop="18dp"
+                        android:layout_marginLeft="18dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kucing Ini Lucu"
+                        android:textSize="12dp"
+                        android:textColor="@color/colorPrimary"
+
+                    />
+
+                    <TextView
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="18dp"
+                        android:layout_marginBottom="18dp"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="11dp"
+                        android:gravity="left"
+                        android:layout_height="fill_parent"
+                        android:layout_width="wrap_content"
+                        android:maxLines="3"
+                        android:lines="3"
+                        android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."></TextView>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginHorizontal="49dp"
+        android:elevation="1dp"
+        >
+
+        <LinearLayout
+            android:background="@color/colorSecondaryWhite"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_alignParentLeft="true"
+                        android:layout_width="99dp"
+                        android:layout_height="99dp"
+                        android:src="@drawable/artikel"/>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_marginTop="18dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kucing Berkaki 4"
+                        android:textSize="12dp"
+                        android:textColor="@color/colorPrimary"
+
+                        />
+
+                    <TextView
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="18dp"
+                        android:layout_marginBottom="18dp"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="11dp"
+                        android:gravity="left"
+                        android:layout_height="fill_parent"
+                        android:layout_width="wrap_content"
+                        android:maxLines="3"
+                        android:lines="3"
+                        android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."></TextView>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginHorizontal="49dp"
+        android:elevation="1dp"
+        >
+
+        <LinearLayout
+            android:background="@color/colorSecondaryWhite"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_alignParentLeft="true"
+                        android:layout_width="99dp"
+                        android:layout_height="99dp"
+                        android:src="@drawable/artikel"/>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_marginTop="18dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kucing Bermata 2"
+                        android:textSize="12dp"
+                        android:textColor="@color/colorPrimary"
+
+                        />
+
+                    <TextView
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="18dp"
+                        android:layout_marginBottom="18dp"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="11dp"
+                        android:gravity="left"
+                        android:layout_height="fill_parent"
+                        android:layout_width="wrap_content"
+                        android:maxLines="3"
+                        android:lines="3"
+                        android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."></TextView>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+
+            android:layout_width="match_parent"
+            android:layout_height="99dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginHorizontal="49dp"
+            android:elevation="1dp"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/tampil_email"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:textColor="@color/colorSecondaryWhite"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Wow"
+                    />
+
+            </RelativeLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:elevation="4dp"
+        android:background="@color/colorSecondaryWhite"
+        >
+
+        <ImageView
+            android:id="@+id/home_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginEnd="48dp"
+            android:layout_marginRight="48dp"
+            android:layout_toStartOf="@+id/eat_btn"
+            android:layout_toLeftOf="@+id/eat_btn"
+            android:src="@drawable/home" />
+
+        <ImageView
+            android:id="@+id/eat_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="48dp"
+            android:layout_marginRight="182dp"
+            android:layout_toStartOf="@+id/cat_btn"
+            android:layout_toLeftOf="@+id/cat_btn"
+            android:src="@drawable/eat" />
+
+        <ImageView
+            android:id="@+id/cat_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="48dp"
+            android:layout_toStartOf="@+id/account_btn"
+            android:layout_toLeftOf="@+id/account_btn"
+            android:src="@drawable/cat" />
+
+        <ImageView
+            android:id="@+id/account_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="51dp"
+            android:src="@drawable/account" />
+    </RelativeLayout>
+</RelativeLayout>

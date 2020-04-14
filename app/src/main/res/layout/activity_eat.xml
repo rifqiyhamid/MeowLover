@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSecondaryGrey"
+    android:orientation="vertical"
+    tools:context=".EatActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSecondaryGrey"
+    android:orientation="vertical"
+    >
+
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:foregroundGravity="center"
+                android:src="@drawable/kucing" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="40dp"
+                android:textColor="@color/colorPrimary"
+                android:text="Angkasa"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:gravity="center"
+                android:textSize="12dp"
+                android:textColor="@color/colorAccent"
+                android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+                android:lines="7"
+                android:maxLines="7"
+
+
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorPrimary"
+                android:layout_alignParentLeft="true"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:gravity="center"
+                android:text="To Do List"
+                android:layout_marginLeft="49dp"
+
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginRight="49dp"
+                android:gravity="center"
+                android:textSize="24dp"
+                android:layout_alignParentRight="true"
+                android:textAlignment="center"
+                android:text="+"
+
+
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/input_number1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:width="250dp"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="@color/colorAccent"
+                android:textColorHint="#999"
+                android:textAlignment="center"
+                android:background="@drawable/edittext"
+                android:hint="Input Number 1" />
+
+            <EditText
+                android:id="@+id/input_number2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:width="250dp"
+                android:background="@drawable/edittext"
+                android:ems="10"
+                android:hint="Input Number 2"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textColorHint="#999"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/input_email" />
+
+            <Button
+                android:id="@+id/btn_hitung"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:width="250dp"
+                android:height="50dp"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/home"
+                android:lineHeight="50dp"
+                android:text="Hitung"
+                android:textAllCaps="false"
+                android:textColor="@color/colorAccent"
+                android:textSize="34sp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:elevation="4dp"
+        android:background="@color/colorSecondaryWhite"
+        >
+
+        <ImageView
+            android:id="@+id/home_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginEnd="48dp"
+            android:layout_marginRight="48dp"
+            android:layout_toStartOf="@+id/eat_btn"
+            android:layout_toLeftOf="@+id/eat_btn"
+            android:src="@drawable/home" />
+
+        <ImageView
+            android:id="@+id/eat_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="48dp"
+            android:layout_marginRight="182dp"
+            android:layout_toStartOf="@+id/cat_btn"
+            android:layout_toLeftOf="@+id/cat_btn"
+            android:src="@drawable/eat" />
+
+        <ImageView
+            android:id="@+id/cat_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="48dp"
+            android:layout_toStartOf="@+id/account_btn"
+            android:layout_toLeftOf="@+id/account_btn"
+            android:src="@drawable/cat" />
+
+        <ImageView
+            android:id="@+id/account_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="51dp"
+            android:src="@drawable/account" />
+    </RelativeLayout>
+</RelativeLayout>
